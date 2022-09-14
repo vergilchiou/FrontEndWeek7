@@ -1,0 +1,12 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./helpers/mixin";
+@import "./layout/HeaderFooter";
+@import "./layout/index.scss";
+@import "./layout/class";
+
+.gradient-x {
+  @include gradient-x;
+}
